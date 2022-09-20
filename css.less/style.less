@@ -13,6 +13,12 @@ body {
         list-style-type: none;
         display: flex;
     }
+    &__navbar li {
+        transition: 1s ease-in-out;
+    }
+    &__navbar li:hover {
+        border-bottom: 1px solid rgb(197, 193, 193);
+    }
     &__navbar a {
         text-decoration: none;
         font-size: 1em;
@@ -45,9 +51,11 @@ body {
         font-weight: bold;
         color: rgb(197, 193, 193);
         text-decoration: none;
+        transition: 0.5s ease;
     }
     &__sub-nav a:hover {
         color:black;
+        transform: scale(1.1);
     }
 
     &__sup-search input {
@@ -57,6 +65,14 @@ body {
     &__sup-search h3 {
         font-size: 0.950em;
         color:rgb(197, 193, 193);
+    }
+    &__sup-search a ,h3{
+        text-decoration: none;
+        transition: 0.5s ease;
+    }
+    &__sup-search h3:hover {
+        color:black;
+        transform: scale(1.1);
     }
 }
 
@@ -69,8 +85,9 @@ body {
         color:white;
         font-weight: bold;
         font-size: 18px;
-        border-radius:25px;
+        border-radius: 50%;
         border: 1px solid grey;
+        background-color: rgb(128, 125, 125);
     }
     &__fade {
         -webkit-animation-name: fade;
@@ -88,5 +105,13 @@ body {
     }
     &__dot {
         background-color:@primary;
+    }
+    &__Slides button {
+        border:none;
+        padding: 20px 50px;
+        font-weight: bold;
+        font-size: 1em;
+        background-color: rgba(115, 219, 219, 0.8);
+        cursor:pointer;
     }
 }

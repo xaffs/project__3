@@ -12,6 +12,12 @@ body {
   list-style-type: none;
   display: flex;
 }
+.header__navbar li {
+  transition: 1s ease-in-out;
+}
+.header__navbar li:hover {
+  border-bottom: 1px solid #c5c1c1;
+}
 .header__navbar a {
   text-decoration: none;
   font-size: 1em;
@@ -40,9 +46,11 @@ body {
   font-weight: bold;
   color: #c5c1c1;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 .submenu__sub-nav a:hover {
   color: black;
+  transform: scale(1.1);
 }
 .submenu__sup-search input {
   border: none;
@@ -51,6 +59,15 @@ body {
 .submenu__sup-search h3 {
   font-size: 0.95em;
   color: #c5c1c1;
+}
+.submenu__sup-search a,
+.submenu h3 {
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.submenu__sup-search h3:hover {
+  color: black;
+  transform: scale(1.1);
 }
 .main__prev:hover,
 .main__next:hover {
@@ -61,8 +78,9 @@ body {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 25px;
+  border-radius: 50%;
   border: 1px solid grey;
+  background-color: #807d7d;
 }
 .main__fade {
   -webkit-animation-name: fade;
@@ -88,4 +106,12 @@ body {
 }
 .main__dot {
   background-color: #fefefe;
+}
+.main__Slides button {
+  border: none;
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: rgba(115, 219, 219, 0.8);
+  cursor: pointer;
 }
