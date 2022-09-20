@@ -1,10 +1,54 @@
+input {
+  outline: none;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccd2d8;
+}
+.header {
+  background-color: #fefefe;
 }
 .header__navbar ul {
   list-style-type: none;
   display: flex;
 }
 .header__navbar a {
-  margin-left: 1em;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+.header__basket p {
+  font-weight: bold;
+}
+.header__account-menu button {
+  border-radius: 25px;
+  border: 1px solid #c5c1c1;
+  background-color: #fefefe;
+  letter-spacing: 0.1em;
+}
+.h-line {
+  padding-top: 3em;
+  border-bottom: 1px solid #c5c1c1;
+}
+.submenu__sub-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.submenu__sub-nav a {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #c5c1c1;
+  text-decoration: none;
+}
+.submenu__sub-nav a:hover {
+  color: black;
+}
+.submenu__sup-search input {
+  border: none;
+  font-size: 1em;
+}
+.submenu__sup-search h3 {
+  font-size: 1em;
+  color: #c5c1c1;
 }
