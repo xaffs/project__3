@@ -6,6 +6,9 @@
 input {
   outline: none;
 }
+select {
+  outline: none;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ccd2d8;
@@ -119,6 +122,33 @@ body {
   font-size: 1em;
   background-color: rgba(115, 219, 219, 0.8);
   cursor: pointer;
+}
+.filter__filter-content {
+  background-color: white;
+  border-radius: 10px;
+}
+.filter__selector select {
+  border: none;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.filter__selector h3 {
+  font-size: 0.8em;
+  color: grey;
+}
+.filter__selector select:hover {
+  border: none;
+}
+.filter__line {
+  border-right: 1px solid grey;
+}
+.filter__keywords-srch input {
+  border: none;
+  padding: 0;
+  background-color: #aaa2a2;
+  width: 5em;
+  padding: 5px;
+  border-radius: 25px;
 }
 .header {
   position: fixed;
@@ -255,4 +285,30 @@ body {
   margin-left: 17em;
   display: flex;
   justify-content: right;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+.filter__filter-content {
+  width: 1170px;
+  display: flex;
+  padding: 20px 30px;
+}
+.filter__selector {
+  display: flex;
+}
+.filter__selector select {
+  margin-left: 3em;
+}
+.filter__line {
+  margin-left: 1em;
+}
+.filter__keywords-srch {
+  margin-left: 2em;
+  display: flex;
+}
+.filter__keywords-srch input {
+  margin-left: 1em;
 }
