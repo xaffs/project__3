@@ -55,7 +55,38 @@ body {
         font-size: 1em;
     }
     &__sup-search h3 {
-        font-size: 1em;
+        font-size: 0.950em;
         color:rgb(197, 193, 193);
+    }
+}
+
+
+.main {
+    &__prev:hover , &__next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    &__prev, &__next {
+        color:white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius:25px;
+        border: 1px solid grey;
+    }
+    &__fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from{opacity: .4;}
+        to{opacity: 1;}
+    }
+    @keyframes fade {
+        from{opacity: .4;}
+        to{opacity: 1;}
+    }
+    &__dot {
+        background-color:@primary;
     }
 }

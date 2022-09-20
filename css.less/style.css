@@ -49,6 +49,43 @@ body {
   font-size: 1em;
 }
 .submenu__sup-search h3 {
-  font-size: 1em;
+  font-size: 0.95em;
   color: #c5c1c1;
+}
+.main__prev:hover,
+.main__next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.main__prev,
+.main__next {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid grey;
+}
+.main__fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.main__dot {
+  background-color: #fefefe;
 }
