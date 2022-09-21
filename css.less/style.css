@@ -4,6 +4,9 @@ input {
 select {
   outline: none;
 }
+option {
+  outline: none;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ccd2d8;
@@ -109,6 +112,7 @@ body {
 }
 .main__dot {
   background-color: #fefefe;
+  border: 1px solid #807d7d;
 }
 .main__Slides button {
   border: none;
@@ -148,7 +152,7 @@ body {
 .filter__keywords-srch input {
   border: none;
   padding: 0;
-  background-color: #aaa2a2;
+  background-color: rgba(211, 203, 203, 0.8);
   width: 7em;
   padding: 0.8em 0.4em;
   border-radius: 25px;
@@ -164,7 +168,7 @@ body {
 .filter__price-filter input:nth-child(2) {
   border: none;
   padding: 0;
-  background-color: #aaa2a2;
+  background-color: rgba(211, 203, 203, 0.8);
   width: 4em;
   padding: 0.8em 0.4em;
   border-radius: 25px;
@@ -172,18 +176,19 @@ body {
 .filter__price-filter input:nth-child(4) {
   border: none;
   padding: 0;
-  background-color: #aaa2a2;
+  background-color: rgba(211, 203, 203, 0.8);
   width: 4em;
   padding: 0.8em 0.4em;
   border-radius: 25px;
 }
-.filter__btn-filter h3 {
+.filter__btn-filter label {
+  font-weight: bold;
   font-size: 1em;
   color: black;
 }
 .filter__country-filter h3 {
   font-size: 0.9em;
-  color: grey;
+  color: #aaa2a2;
 }
 .filter__country-filter select {
   border: none;
@@ -199,5 +204,10 @@ body {
   font-weight: bold;
 }
 .filter__country-filter option:hover {
+  border: none;
+}
+.filter__btn-filter input {
+  border-radius: 50%;
+  background-color: green;
   border: none;
 }
