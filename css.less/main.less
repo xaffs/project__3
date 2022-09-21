@@ -162,6 +162,9 @@
     &__selector {
         display: flex;
     }
+    &__selector h3 {
+        padding-top: 0.9em;
+    }
     &__selector select {
         margin-left: 3em;
     }
@@ -172,7 +175,44 @@
         margin-left: 2em;
         display: flex;
     }
+    &__keywords-srch h3 {
+        padding-top: 0.9em;
+    }
     &__keywords-srch input {
         margin-left: 1em;
+    }
+    &__price-filter {
+        display: flex;
+    }
+    &__price-filter h3:first-child {
+        padding-top: 0.9em;
+        margin-left: 1em;   
+    }
+    &__price-filter input:nth-child(2) {
+        margin-left: 2em;
+    }
+    &__price-filter input:last-child {
+        margin-left: 2em;
+    }
+    &__price-filter p {
+        padding: 0.5em 0.5em;
+    }
+    &__btn-filter {
+        display: flex;
+        padding-left: 2em;
+    }
+    &__btn-filter h3 {
+        padding-top: 0.6em;
+        margin-left: 1em;
+    }
+    &__country-filter {
+        display: flex;
+        padding-left: 1em;
+    }
+    &__country-filter h3 {
+        padding-top: 0.8em;
+    }
+    &__country-filter select {
+        margin-left: 6em;
     }
 }

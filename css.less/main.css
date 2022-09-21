@@ -132,6 +132,14 @@ body {
   font-size: 0.8em;
   font-weight: bold;
 }
+.filter__selector option {
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.filter__selector option:hover {
+  border: none;
+}
 .filter__selector h3 {
   font-size: 0.8em;
   color: grey;
@@ -146,9 +154,57 @@ body {
   border: none;
   padding: 0;
   background-color: #aaa2a2;
-  width: 5em;
-  padding: 5px;
+  width: 7em;
+  padding: 0.8em 0.4em;
   border-radius: 25px;
+}
+.filter__keywords-srch h3 {
+  font-size: 0.8em;
+  color: grey;
+}
+.filter__price-filter h3 {
+  font-size: 0.8em;
+  color: grey;
+}
+.filter__price-filter input:nth-child(2) {
+  border: none;
+  padding: 0;
+  background-color: #aaa2a2;
+  width: 4em;
+  padding: 0.8em 0.4em;
+  border-radius: 25px;
+}
+.filter__price-filter input:nth-child(4) {
+  border: none;
+  padding: 0;
+  background-color: #aaa2a2;
+  width: 4em;
+  padding: 0.8em 0.4em;
+  border-radius: 25px;
+}
+.filter__btn-filter h3 {
+  font-size: 1em;
+  color: black;
+}
+.filter__country-filter h3 {
+  font-size: 0.9em;
+  color: grey;
+}
+.filter__country-filter select {
+  border: none;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.filter__country-filter select:hover {
+  border: none;
+}
+.filter__country-filter option {
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.filter__country-filter option:hover {
+  border: none;
 }
 .header {
   position: fixed;
@@ -299,6 +355,9 @@ body {
 .filter__selector {
   display: flex;
 }
+.filter__selector h3 {
+  padding-top: 0.9em;
+}
 .filter__selector select {
   margin-left: 3em;
 }
@@ -309,6 +368,43 @@ body {
   margin-left: 2em;
   display: flex;
 }
+.filter__keywords-srch h3 {
+  padding-top: 0.9em;
+}
 .filter__keywords-srch input {
   margin-left: 1em;
+}
+.filter__price-filter {
+  display: flex;
+}
+.filter__price-filter h3:first-child {
+  padding-top: 0.9em;
+  margin-left: 1em;
+}
+.filter__price-filter input:nth-child(2) {
+  margin-left: 2em;
+}
+.filter__price-filter input:last-child {
+  margin-left: 2em;
+}
+.filter__price-filter p {
+  padding: 0.5em 0.5em;
+}
+.filter__btn-filter {
+  display: flex;
+  padding-left: 2em;
+}
+.filter__btn-filter h3 {
+  padding-top: 0.6em;
+  margin-left: 1em;
+}
+.filter__country-filter {
+  display: flex;
+  padding-left: 1em;
+}
+.filter__country-filter h3 {
+  padding-top: 0.8em;
+}
+.filter__country-filter select {
+  margin-left: 6em;
 }
