@@ -417,3 +417,175 @@ body {
 .filter__country-filter select {
   margin-left: 6em;
 }
+.product-section {
+  position: relative;
+  margin: 0 auto;
+  padding: 0px 10px;
+  max-width: 1170px;
+}
+.product-section__submenu-line {
+  padding-top: 3em;
+}
+.product-section__submenu-1 {
+  width: 20em;
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+.product-section__submenu-2 {
+  padding-top: 3em;
+}
+.product-section__sub-filter {
+  border-radius: 0.25em;
+  width: 20em;
+  display: block;
+  background-color: white;
+  position: relative;
+}
+.product-section__sub-filter div {
+  padding: 1rem 1rem;
+}
+.submenu-1__menu-item {
+  list-style: none;
+  border-top: 1px solid #96969b;
+  overflow: hidden;
+}
+.submenu-1__menu-item:first-child {
+  border-top: 0px;
+}
+.submenu-1__menu-item a {
+  text-decoration: none;
+}
+.submenu-1__menu-btn {
+  display: block;
+  padding: 1em 1.2em;
+  background: white;
+  position: relative;
+  font-weight: bold;
+  color: black;
+}
+.submenu-1__menu-btn::before {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  left: 1.5rem;
+  bottom: -0.5rem;
+  transform: rotate(45deg);
+}
+.submenu-1__menu-item__sub {
+  background: white;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+.submenu-1__menu-item__sub a {
+  display: block;
+  padding: 1rem 1.6rem;
+  color: grey;
+  font-size: 0.9rem;
+  position: relative;
+  border-top: 1px solid grey;
+  background-color: #eeeded;
+}
+.submenu-1 .menu-item:target .menu-item__sub {
+  max-height: 15em;
+}
+.sub-filter__sub_btn {
+  display: flex;
+  max-width: 20em;
+}
+.sub-filter__sub_btn p:nth-child(2) {
+  margin-left: 1em;
+}
+.sub-filter__sub_btn p:last-child {
+  position: relative;
+  left: 10em;
+}
+.sub-filter__number-2 {
+  margin-left: 0.8em;
+}
+.sub-filter__number-3 {
+  margin-left: 0.5em;
+}
+.sub-filter__number-4 {
+  margin-left: 0.8em;
+}
+.sub-filter__sub-brands {
+  display: flex;
+}
+.sub-filter__sub-brands a {
+  margin-left: 11em;
+}
+.sub-filter__inputer {
+  display: flex;
+}
+.sub-filter__inputer p {
+  margin-left: 1em;
+}
+.sub-filter__input-num1 {
+  position: relative;
+  left: 7em;
+}
+.sub-filter__input-num2 {
+  position: relative;
+  left: 4.95em;
+}
+.sub-filter__sub-avail {
+  border-bottom: 1px solid #96969b;
+}
+.sub-filter__sub-input {
+  border-bottom: 1px solid #96969b;
+}
+.sub-filter__sub-brands {
+  border-bottom: 1px solid #96969b;
+}
+.submenu-3 {
+  padding-top: 3em;
+}
+.submenu-3__sub-filter2 div {
+  padding: 1em;
+}
+.submenu-3__btn-block {
+  display: flex;
+  flex-direction: column;
+}
+.submenu-3__sub-filter2 {
+  background-color: white;
+  width: 20em;
+  display: block;
+  position: relative;
+  border-radius: 0.25em;
+}
+.submenu-3__condition-block {
+  display: flex;
+  border-bottom: 1px solid #96969b;
+}
+.submenu-3__condition-block a {
+  margin-left: 8em;
+}
+.submenu-3__sub3-btn label {
+  margin-left: 1em;
+}
+.submenu-4 {
+  padding-top: 3em;
+}
+.submenu-4__sub-filter3 div {
+  padding: 1em;
+}
+.submenu-4__sub-filter3 {
+  background-color: white;
+  width: 20em;
+  position: relative;
+  display: block;
+  border-radius: 0.25em;
+}
+.submenu-4__inputers-4 {
+  display: flex;
+}
+.submenu-4__inputers-4 div:last-child {
+  margin-left: 6em;
+}
+.submenu-4__delievery {
+  border-bottom: 1px solid #96969b;
+}
