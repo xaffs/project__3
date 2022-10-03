@@ -11,6 +11,20 @@ select {
 option {
   outline: none;
 }
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/satisfy/v17/rP2Hp2yn6lkG50LoOZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nanummyeongjo/v20/9Btx3DZF0dXLMZlywRbVRNhxy1Lr.ttf) format('truetype');
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ccd2d8;
@@ -42,6 +56,12 @@ body {
   border: 1px solid #c5c1c1;
   background-color: #fefefe;
   letter-spacing: 0.1em;
+}
+.header__head-logo h3 {
+  font-family: 'Satisfy', cursive;
+}
+.header button {
+  font-weight: bold;
 }
 .h-line {
   padding-top: 3em;
@@ -127,7 +147,7 @@ body {
   cursor: pointer;
 }
 .filter__filter-content {
-  background-color: white;
+  background-color: #fefefe;
   border-radius: 10px;
 }
 .filter__selector select {
@@ -232,11 +252,20 @@ body {
   border: 1px solid grey;
   border-radius: 25px;
 }
+.staff-section__bp-p1 {
+  color: #d0d0d3;
+}
+.staff-section__bp-p2 {
+  font-weight: bold;
+}
+.staff-section__bp-p4 {
+  color: #d0d0d3;
+}
 .product-section__sub-filter {
   background-color: white;
 }
 .submenu-1__menu-btn {
-  background: white;
+  background: #fefefe;
   color: black;
 }
 .submenu-1__menu-btn::before {
@@ -259,11 +288,26 @@ body {
 .sub-filter__sub-brands {
   border-bottom: 1px solid #96969b;
 }
+.sub-filter__sub-btns {
+  font-weight: bold;
+}
+.sub-filter__sub-input {
+  font-weight: bold;
+}
+.sub-filter__sub-brands a {
+  color: #2754eb;
+}
 .submenu-3__sub-filter2 {
-  background-color: white;
+  background-color: #fefefe;
 }
 .submenu-3__condition-block {
   border-bottom: 1px solid #96969b;
+}
+.submenu-3__btn-block {
+  font-weight: bold;
+}
+.submenu-3__condition-block a {
+  color: #2754eb;
 }
 .submenu-4__sub-filter3 {
   background-color: white;
@@ -271,8 +315,17 @@ body {
 .submenu-4__delievery {
   border-bottom: 1px solid #96969b;
 }
+.submenu-4__sub-4-input {
+  font-weight: bold;
+}
+.submenu-4__sub-4input2 {
+  font-weight: bold;
+}
 .pag-rew__block-pages {
-  background: white;
+  background: #fefefe;
+}
+.pag-rew__page-num a {
+  color: black;
 }
 .pag-rew__page-num a:hover {
   position: static;
@@ -281,18 +334,30 @@ body {
   color: grey;
 }
 .pag-rew__block-best {
-  background: white;
+  background: #fefefe;
 }
 .pag-rew__old-price {
   text-decoration: line-through;
-  color: grey;
+  color: #d0d0d3;
 }
 .pag-rew__b-sell_1 {
-  border-right: 1px solid #96969b;
-  border-top: 1px solid #96969b;
+  border-right: 1px solid #d0d0d3;
+  border-top: 1px solid #d0d0d3;
 }
 .pag-rew__b-sell_2 {
-  border-top: 1px solid #96969b;
+  border-top: 1px solid #d0d0d3;
+}
+.pag-rew__b-staff_1 p {
+  color: #d0d0d3;
+}
+.pag-rew__b-staff_2 p {
+  color: #d0d0d3;
+}
+.pag-rew__b-staff_3 p {
+  color: #d0d0d3;
+}
+.pag-rew__page-num {
+  font-weight: bold;
 }
 .footer {
   background-color: #222328;
@@ -301,19 +366,34 @@ body {
   border-bottom: 1px solid black;
 }
 .footer__bi-list li {
-  color: aliceblue;
+  color: #acacaf;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 .footer__bi-site_name h3 {
-  color: white;
+  color: #acacaf;
+  font-family: 'Satisfy', cursive;
 }
 .footer__pol-text {
-  color: white;
+  color: #acacaf;
+  font-family: 'Satisfy', cursive;
 }
 .footer__pol-btn h4 {
-  color: white;
+  color: #acacaf;
 }
 .reviews__bg-block {
-  background-color: #ffffff;
+  background-color: #fefefe;
+}
+.reviews__bg-ps-data p {
+  font-family: 'Satisfy', cursive;
+  color: #d0d0d3;
+}
+.reviews__bg-top p {
+  font-family: 'Satisfy', cursive;
+  color: #d0d0d3;
+}
+.reviews__p-rewiew {
+  font-family: 'Nanum Myeongjo', serif;
 }
 .header {
   position: fixed;
@@ -755,6 +835,18 @@ body {
   display: flex;
   padding: 0.5em 1em;
 }
+.staff-section__bp-p1 {
+  margin-top: 0.5em;
+}
+.staff-section__bp-p2 {
+  margin-top: 0.5em;
+}
+.staff-section__bp-p3 {
+  margin-top: 0.2em;
+}
+.staff-section__bp-p4 {
+  margin-top: 0.2em;
+}
 .pag-rew {
   position: relative;
   margin: 0 auto;
@@ -804,9 +896,9 @@ body {
   margin-right: 2em;
 }
 .pag-rew__b-price {
-  padding-top: 1em;
+  padding-top: 0em;
   display: flex;
-  margin-left: 1.65em;
+  margin-left: 1.5em;
 }
 .pag-rew__b-staff_2 h4 {
   padding-top: 1.5em;
@@ -876,6 +968,9 @@ body {
   padding-top: 1em;
   padding-right: 8em;
 }
+.reviews__bg-top p {
+  margin-top: 0.7em;
+}
 .footer__backinfo {
   position: relative;
   margin: 0 auto;
@@ -893,7 +988,7 @@ body {
   padding-top: 0.5em;
 }
 .footer__bi-list li {
-  margin-left: 1em;
+  margin-left: 3em;
 }
 .footer__bi-icons i {
   margin-left: 1em;

@@ -3,6 +3,8 @@
 input {outline:none;}
 select {outline:none;}
 option {outline:none;}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +38,13 @@ body {
         background-color: @primary;
         letter-spacing: 0.1em;
     }
+    &__head-logo h3 {
+        font-family: 'Satisfy', cursive;
+    }
+}
+
+.header button {
+    font-weight: bold;
 }
 
 .h-line {
@@ -122,7 +131,7 @@ body {
 
 .filter {
     &__filter-content {
-        background-color:white;
+        background-color:@primary;
         border-radius:10px;
     }
     &__selector select { 
@@ -214,24 +223,33 @@ body {
 
 .staff-section {
     &__block-product1 {
-        background-color:#fefefe;
+        background-color:@primary;
     }
     &__block-product2 {
-        background-color:#fefefe;
+        background-color:@primary;
     }
     &__block-product3 {
-        background-color:#fefefe;
+        background-color:@primary;
     }
     &__block-product4 {
-        background-color:#fefefe;
+        background-color:@primary;
         border-radius:0.25em;
     }
     &__p-border {
         border: 1px solid grey;
         border-radius: 25px;
     }
-
+    &__bp-p1 {
+        color:rgb(208, 208, 211);
+    }
+    &__bp-p2 {
+        font-weight: bold;
+    }
+    &__bp-p4 {
+        color:rgb(208, 208, 211); 
+    }
 }
+
 .product-section {
     &__sub-filter {
         background-color: white;
@@ -240,7 +258,7 @@ body {
 
 .submenu-1 {
     &__menu-btn {
-        background:white;
+        background:@primary;
         color:black;
     }
     &__menu-btn::before {
@@ -266,14 +284,29 @@ body {
     &__sub-brands {
         border-bottom: 1px solid rgb(150, 150, 155); 
     }
+    &__sub-btns {
+        font-weight: bold;
+    }
+    &__sub-input {
+        font-weight: bold;
+    }
+    &__sub-brands a {
+        color:#2754eb;  
+    }
 }
 
 .submenu-3 {
     &__sub-filter2 {
-        background-color: white;
+        background-color: @primary;
     }
     &__condition-block {
         border-bottom: 1px solid rgb(150, 150, 155);
+    }
+    &__btn-block {
+        font-weight: bold;
+    }
+    &__condition-block a {
+        color: #2754eb;  
     }
 }
 
@@ -284,11 +317,20 @@ body {
     &__delievery {
         border-bottom: 1px solid rgb(150, 150, 155);
     }
+    &__sub-4-input {
+        font-weight: bold;
+    }
+    &__sub-4input2 {
+        font-weight: bold;
+    }
 }
 
 .pag-rew {
     &__block-pages{
-        background: white;
+        background: @primary;
+    }
+    &__page-num a {
+        color:black;
     }
     &__page-num a:hover {
         position: static;
@@ -297,18 +339,30 @@ body {
         color:grey;
     }
     &__block-best {
-        background:white;
+        background:@primary ;
     }
     &__old-price {
         text-decoration:line-through;
-        color:grey;
+        color:rgb(208, 208, 211);
     }
     &__b-sell_1 {
-        border-right: 1px solid rgb(150, 150, 155);
-        border-top: 1px solid rgb(150, 150, 155);
+        border-right: 1px solid rgb(208, 208, 211);
+        border-top: 1px solid rgb(208, 208, 211);
     }
     &__b-sell_2 {
-        border-top: 1px solid  rgb(150, 150, 155);
+        border-top: 1px solid  rgb(208, 208, 211);
+    }
+    &__b-staff_1 p {
+        color:rgb(208, 208, 211);
+    }
+    &__b-staff_2 p {
+        color:rgb(208, 208, 211);
+    }
+    &__b-staff_3 p {
+        color:rgb(208, 208, 211);
+    }
+    &__page-num {
+        font-weight: bold;
     }
 }
 
@@ -318,21 +372,36 @@ body {
         border-bottom: 1px solid black;
     }
     &__bi-list li {
-        color:aliceblue;
+        color:rgb(172, 172, 175);  
+        font-weight: bold;
+        font-size: 0.8em;
     }
     &__bi-site_name h3 {
-        color:white;
+        color:rgb(172, 172, 175);  
+        font-family: 'Satisfy', cursive;
     }
     &__pol-text {
-        color: white;
+        color: rgb(172, 172, 175);  
+        font-family: 'Satisfy', cursive;
     }
     &__pol-btn h4 {
-        color:white;
+        color:rgb(172, 172, 175);  
     }
 }
 
 .reviews {
     &__bg-block {
-        background-color:rgb(255, 255, 255);
+        background-color:@primary;
+    }
+    &__bg-ps-data p {
+        font-family: 'Satisfy', cursive;
+        color:rgb(208, 208, 211);
+    }
+    &__bg-top p {
+        font-family: 'Satisfy', cursive;
+        color:rgb(208, 208, 211);
+    }
+    &__p-rewiew {
+        font-family: 'Nanum Myeongjo', serif;
     }
 }
