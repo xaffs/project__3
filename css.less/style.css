@@ -211,3 +211,103 @@ body {
   background-color: green;
   border: none;
 }
+.staff-section__block-product1 {
+  background-color: #fefefe;
+}
+.staff-section__block-product2 {
+  background-color: #fefefe;
+}
+.staff-section__block-product3 {
+  background-color: #fefefe;
+}
+.staff-section__block-product4 {
+  background-color: #fefefe;
+  border-radius: 0.25em;
+}
+.staff-section__p-border {
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+.product-section__sub-filter {
+  background-color: white;
+}
+.submenu-1__menu-btn {
+  background: white;
+  color: black;
+}
+.submenu-1__menu-btn::before {
+  background: white;
+}
+.submenu-1__menu-item__sub {
+  background: white;
+}
+.submenu-1__menu-item__sub a {
+  color: grey;
+  border-top: 1px solid grey;
+  background-color: #eeeded;
+}
+.sub-filter__sub-avail {
+  border-bottom: 1px solid #96969b;
+}
+.sub-filter__sub-input {
+  border-bottom: 1px solid #96969b;
+}
+.sub-filter__sub-brands {
+  border-bottom: 1px solid #96969b;
+}
+.submenu-3__sub-filter2 {
+  background-color: white;
+}
+.submenu-3__condition-block {
+  border-bottom: 1px solid #96969b;
+}
+.submenu-4__sub-filter3 {
+  background-color: white;
+}
+.submenu-4__delievery {
+  border-bottom: 1px solid #96969b;
+}
+.pag-rew__block-pages {
+  background: white;
+}
+.pag-rew__page-num a:hover {
+  position: static;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  color: grey;
+}
+.pag-rew__block-best {
+  background: white;
+}
+.pag-rew__old-price {
+  text-decoration: line-through;
+  color: grey;
+}
+.pag-rew__b-sell_1 {
+  border-right: 1px solid #96969b;
+  border-top: 1px solid #96969b;
+}
+.pag-rew__b-sell_2 {
+  border-top: 1px solid #96969b;
+}
+.footer {
+  background-color: #222328;
+}
+.footer__bi-block {
+  border-bottom: 1px solid black;
+}
+.footer__bi-list li {
+  color: aliceblue;
+}
+.footer__bi-site_name h3 {
+  color: white;
+}
+.footer__pol-text {
+  color: white;
+}
+.footer__pol-btn h4 {
+  color: white;
+}
+.reviews__bg-block {
+  background-color: #ffffff;
+}
